@@ -1,0 +1,19 @@
+{
+  "name": "simple-logging",
+  "version": "1.0.1",
+  "description": "A simple Node.js logging module",
+  "main": "simple-logging.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Logging",
+    "Simple",
+    "Logging",
+    "Console",
+    "log",
+    "module"
+  ],
+  "author": "Ryan Smith",
+  "license": "ISC"
+}
