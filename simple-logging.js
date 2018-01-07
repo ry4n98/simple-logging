@@ -35,5 +35,5 @@ module.exports = {
   info: info,
   warn: warn,
   crit: crit,
-  debug, debug
+  debug: debug
 }
