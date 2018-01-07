@@ -1,6 +1,6 @@
 {
   "name": "simple-logging",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A simple Node.js logging module with no dependencies.",
   "main": "simple-logging.js",
   "scripts": {
@@ -15,5 +15,9 @@
     "module"
   ],
   "author": "Ryan Smith",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryansmith98/simple-logging"
+  }
 }
