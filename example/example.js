@@ -1,6 +1,9 @@
 const l = require('../simple-logging');
 
-console.log(l.info() + "Some information.");
-console.log(l.warn() + "Somethings not quite right, but continuing anyways.");
-console.log(l.crit() + "Something critical has occurred, getting outta here!\n");
-console.log(l.debug() + "I really cannot figure out why this is not working");
+l.info("Some information.")
+l.warn("Somethings not quite right, but continuing anyways.")
+l.crit("Something critical has occurred, getting outta here!\n")
+
+var object = {surprise: "\u0042\u004f\u004f\u0021"}
+l.debug("I wonder what is inside my object...")
+l.debug(object.surprise)

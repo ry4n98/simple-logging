@@ -11,20 +11,24 @@ In Node.js:
 ```js
 const l = require('simple-logging');
 
-console.log(l.info() + "Some information.");
-console.log(l.warn() + "Somethings not quite right, but continuing anyways.");
-console.log(l.crit() + "Something critical has occurred, getting outta here!\n");
-console.log(l.debug() + "I really cannot figure out why this is not working");
+l.info("Some information.")
+l.warn("Somethings not quite right, but continuing anyways.")
+l.crit("Something critical has occurred, getting outta here!\n")
+
+var object = {surprise: "\u0042\u004f\u004f\u0021"}
+l.debug("I wonder what is inside my object...")
+l.debug(object.surprise)
 ```
 
 Console output:
 ```shell
 $ node example.js
-[INFO][12:51:38 PM] Some information.
-[WARN][12:51:38 PM] Somethings not quite right, but continuing anyways.
-[CRIT][12:51:38 PM] Something critical has occurred, getting outta here!
+[INFO][1:12:17 PM] Some information.
+[WARN][1:12:17 PM] Somethings not quite right, but continuing anyways.
+[CRIT][1:12:17 PM] Something critical has occurred, getting outta here!
 
-[DEBUG][12:51:38 PM] I really cannot figure out why this is not working
+[DEBUG][1:12:17 PM] I wonder what is inside my object...
+[DEBUG][1:12:17 PM] BOO!
 ```
 
 ## Why simple-logging?

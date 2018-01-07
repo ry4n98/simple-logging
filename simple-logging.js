@@ -11,20 +11,24 @@ function timestamp() {
   return ts
 }
 
-function info() {
-  return INFO_TEXT + timestamp() + SPACE;
+function info(data) {
+  var log = INFO_TEXT + timestamp() + SPACE + data
+  console.log(log);
 }
 
-function warn() {
-  return WARN_TEXT + timestamp() + SPACE;
+function warn(data) {
+  var log = WARN_TEXT + timestamp() + SPACE + data
+  console.log(log);
 }
 
-function crit() {
-  return CRIT_TEXT + timestamp() + SPACE;
+function crit(data) {
+  var log = CRIT_TEXT + timestamp() + SPACE + data
+  console.log(log);
 }
 
-function debug() {
-  return DEBUG_TEXT + timestamp() + SPACE;
+function debug(data) {
+  var log = DEBUG_TEXT + timestamp() + SPACE + data
+  console.log(log);
 }
 
 module.exports = {
