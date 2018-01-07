@@ -1,6 +1,6 @@
 {
   "name": "simple-logging",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple Node.js logging module",
   "main": "simple-logging.js",
   "scripts": {
