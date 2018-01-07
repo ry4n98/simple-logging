@@ -1,4 +1,6 @@
-# simple-logging v1.0.7
+# simple-logging v1.0.9
+
+A simple Node.js logging module with no dependencies.
 
 ## Installation
 Using npm:
