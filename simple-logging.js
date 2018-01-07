@@ -1,6 +1,7 @@
 const INFO_TEXT = "[INFO]"
 const WARN_TEXT = "[WARN]"
 const CRIT_TEXT = "[CRIT]"
+const DEBUG_TEXT = "[DEBUG]"
 const SPACE = " "
 
 function timestamp() {
@@ -22,8 +23,13 @@ function crit() {
   return CRIT_TEXT + timestamp() + SPACE;
 }
 
+function debug() {
+  return DEBUG_TEXT + timestamp() + SPACE;
+}
+
 module.exports = {
   info: info,
   warn: warn,
   crit: crit,
+  debug, debug
 }
