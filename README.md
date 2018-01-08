@@ -1,4 +1,5 @@
-# simple-logging v1.1.0
+# simple-logging v1.2.3
+[![Total Downloads](https://img.shields.io/npm/dt/simple-logging.svg)](https://www.npmjs.com/package/simple-logging)
 A simple Node.js logging module with no dependencies.
 
 ## Installation
